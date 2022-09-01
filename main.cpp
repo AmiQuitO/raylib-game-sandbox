@@ -141,7 +141,7 @@ int main() {
 				}
 			}
 		}
-		DrawText(typeN.c_str(), mousePos.x - MeasureText(typeN.c_str(), 20)/2, mousePos.y-20, 20, typeC);
+		DrawText(typeN, mousePos.x - MeasureText(typeN, 20)/2, mousePos.y-20, 20, typeC);
 
 		DrawFPS(0, 0);
 		EndDrawing();

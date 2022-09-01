@@ -3,7 +3,7 @@
 #include "raylib.h"
 #include <string>
 #include <cmath>
-#include <string>
+#include <cstring>
 
 
 const int GAMEWIDTH = 160;
@@ -19,7 +19,7 @@ int scrollY = 1;
 
 int type = 1; //0 = air, 1 = sand, 2 = water, 3 = solid
 Color typeC = YELLOW;
-std::string typeN = "Sand";
+const char* typeN = "Sand";
 
 class Particle {
 private:
